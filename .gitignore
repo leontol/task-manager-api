@@ -1,0 +1,14 @@
+cd E:\Task_manager
+echo __pycache__/ > .gitignore
+echo *.pyc >> .gitignore
+echo .env >> .gitignore
+echo .pytest_cache/ >> .gitignore
+echo .mypy_cache/ >> .gitignore
+echo .ruff_cache/ >> .gitignore
+echo htmlcov/ >> .gitignore
+echo .coverage >> .gitignore
+echo logs/ >> .gitignore
+echo .vscode/ >> .gitignore
+echo .idea/ >> .gitignore
+echo *.log >> .gitignore
+echo __pycache__/ >> .gitignore

@@ -1,0 +1,209 @@
+2026-04-13 21:36:29,275 - api - INFO - [REQUEST] POST http://127.0.0.1:8000/api/v1/tasks - Client: 127.0.0.1
+2026-04-13 21:36:29,281 - api - INFO - [RESPONSE] POST http://127.0.0.1:8000/api/v1/tasks - Status: 401 - Time: 0.006s
+2026-04-13 21:36:29,386 - api - INFO - [REQUEST] GET http://127.0.0.1:8000/api/v1/tasks - Client: 127.0.0.1
+2026-04-13 21:36:29,389 - api - INFO - [RESPONSE] GET http://127.0.0.1:8000/api/v1/tasks - Status: 200 - Time: 0.003s
+2026-04-13 22:44:25,903 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:25,908 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:44:25,912 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:25,923 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:25,926 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 401 - Time: 0.003s
+2026-04-13 22:44:25,930 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 401 Unauthorized"
+2026-04-13 22:44:25,940 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:25,942 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:44:25,946 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:25,950 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 - Client: testclient
+2026-04-13 22:44:25,952 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 - Status: 200 - Time: 0.002s
+2026-04-13 22:44:25,955 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 "HTTP/1.1 200 OK"
+2026-04-13 22:44:25,967 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/stats - Client: testclient
+2026-04-13 22:44:25,968 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/stats - Status: 200 - Time: 0.002s
+2026-04-13 22:44:25,971 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/stats "HTTP/1.1 200 OK"
+2026-04-13 22:44:25,980 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:25,982 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:44:25,985 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:25,989 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/b1c2ec22-4360-4d2f-b475-4a2451d23607 - Client: testclient
+2026-04-13 22:44:25,992 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/b1c2ec22-4360-4d2f-b475-4a2451d23607 - Status: 404 - Time: 0.003s
+2026-04-13 22:44:25,995 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/b1c2ec22-4360-4d2f-b475-4a2451d23607 "HTTP/1.1 404 Not Found"
+2026-04-13 22:44:26,283 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/non-existent-id-12345 - Client: testclient
+2026-04-13 22:44:26,284 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/non-existent-id-12345 - Status: 404 - Time: 0.001s
+2026-04-13 22:44:26,286 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/non-existent-id-12345 "HTTP/1.1 404 Not Found"
+2026-04-13 22:44:26,295 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,298 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:44:26,302 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,310 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,314 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.004s
+2026-04-13 22:44:26,317 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,322 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,325 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:44:26,330 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,333 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,335 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:44:26,338 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,343 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,345 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:44:26,348 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,353 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Client: testclient
+2026-04-13 22:44:26,355 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Status: 200 - Time: 0.002s
+2026-04-13 22:44:26,359 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?skip=2&limit=2 "HTTP/1.1 200 OK"
+2026-04-13 22:44:26,383 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,386 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:44:26,390 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,395 - api - INFO - [REQUEST] PUT http://testserver/api/v1/tasks/f6c198cd-d5c4-49d6-92f5-775f9674cb66 - Client: testclient
+2026-04-13 22:44:26,400 - api - INFO - [RESPONSE] PUT http://testserver/api/v1/tasks/f6c198cd-d5c4-49d6-92f5-775f9674cb66 - Status: 404 - Time: 0.005s
+2026-04-13 22:44:26,403 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/tasks/f6c198cd-d5c4-49d6-92f5-775f9674cb66 "HTTP/1.1 404 Not Found"
+2026-04-13 22:44:26,431 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:44:26,434 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:44:26,439 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:44:26,445 - api - INFO - [REQUEST] DELETE http://testserver/api/v1/tasks/00636b32-4a09-467c-8104-27f9506842df - Client: testclient
+2026-04-13 22:44:26,448 - api - INFO - [RESPONSE] DELETE http://testserver/api/v1/tasks/00636b32-4a09-467c-8104-27f9506842df - Status: 404 - Time: 0.003s
+2026-04-13 22:44:26,452 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/tasks/00636b32-4a09-467c-8104-27f9506842df "HTTP/1.1 404 Not Found"
+2026-04-13 22:48:49,571 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,578 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks - Status: 200 - Time: 0.008s
+2026-04-13 22:48:49,583 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks "HTTP/1.1 200 OK"
+2026-04-13 22:48:49,587 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,593 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.006s
+2026-04-13 22:48:49,597 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,607 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,610 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks - Status: 200 - Time: 0.003s
+2026-04-13 22:48:49,613 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks "HTTP/1.1 200 OK"
+2026-04-13 22:48:49,617 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,622 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:48:49,625 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,629 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/30d88b8c-d4b6-4fcc-9e9b-ead406b073df - Client: testclient
+2026-04-13 22:48:49,636 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/30d88b8c-d4b6-4fcc-9e9b-ead406b073df - Status: 404 - Time: 0.007s
+2026-04-13 22:48:49,639 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/30d88b8c-d4b6-4fcc-9e9b-ead406b073df "HTTP/1.1 404 Not Found"
+2026-04-13 22:48:49,907 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,911 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks - Status: 200 - Time: 0.004s
+2026-04-13 22:48:49,914 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks "HTTP/1.1 200 OK"
+2026-04-13 22:48:49,918 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,923 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:48:49,927 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,931 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,935 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.004s
+2026-04-13 22:48:49,939 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,943 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,947 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.004s
+2026-04-13 22:48:49,951 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,955 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,960 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:48:49,964 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,967 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:49,972 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:48:49,976 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:49,980 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Client: testclient
+2026-04-13 22:48:49,984 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Status: 200 - Time: 0.004s
+2026-04-13 22:48:49,988 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?skip=2&limit=2 "HTTP/1.1 200 OK"
+2026-04-13 22:48:50,007 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:50,011 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks - Status: 200 - Time: 0.004s
+2026-04-13 22:48:50,013 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks "HTTP/1.1 200 OK"
+2026-04-13 22:48:50,018 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:50,023 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:48:50,027 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:50,032 - api - INFO - [REQUEST] PUT http://testserver/api/v1/tasks/d6ff1551-18a0-44ea-95bf-659b0c6f5b00 - Client: testclient
+2026-04-13 22:48:50,040 - api - INFO - [RESPONSE] PUT http://testserver/api/v1/tasks/d6ff1551-18a0-44ea-95bf-659b0c6f5b00 - Status: 404 - Time: 0.009s
+2026-04-13 22:48:50,044 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/tasks/d6ff1551-18a0-44ea-95bf-659b0c6f5b00 "HTTP/1.1 404 Not Found"
+2026-04-13 22:48:50,068 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:50,073 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks - Status: 200 - Time: 0.005s
+2026-04-13 22:48:50,077 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks "HTTP/1.1 200 OK"
+2026-04-13 22:48:50,081 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:48:50,086 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.006s
+2026-04-13 22:48:50,090 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:48:50,095 - api - INFO - [REQUEST] DELETE http://testserver/api/v1/tasks/9c15f56c-4a27-477d-a8e5-074997c6b47d - Client: testclient
+2026-04-13 22:48:50,101 - api - INFO - [RESPONSE] DELETE http://testserver/api/v1/tasks/9c15f56c-4a27-477d-a8e5-074997c6b47d - Status: 404 - Time: 0.005s
+2026-04-13 22:48:50,104 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/tasks/9c15f56c-4a27-477d-a8e5-074997c6b47d "HTTP/1.1 404 Not Found"
+2026-04-13 22:54:35,948 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:35,952 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 22:54:35,956 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:35,966 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:35,968 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 401 - Time: 0.002s
+2026-04-13 22:54:35,971 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 401 Unauthorized"
+2026-04-13 22:54:35,980 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:35,983 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:54:35,986 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:35,990 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 - Client: testclient
+2026-04-13 22:54:35,993 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 - Status: 200 - Time: 0.002s
+2026-04-13 22:54:35,996 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?status=pending&priority=high&skip=0&limit=10 "HTTP/1.1 200 OK"
+2026-04-13 22:54:36,006 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/stats - Client: testclient
+2026-04-13 22:54:36,007 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/stats - Status: 200 - Time: 0.002s
+2026-04-13 22:54:36,011 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/stats "HTTP/1.1 200 OK"
+2026-04-13 22:54:36,021 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,024 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:54:36,027 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,032 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/34a8c691-b7dd-4938-a696-e80c42b6c644 - Client: testclient
+2026-04-13 22:54:36,033 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/34a8c691-b7dd-4938-a696-e80c42b6c644 - Status: 404 - Time: 0.002s
+2026-04-13 22:54:36,036 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/34a8c691-b7dd-4938-a696-e80c42b6c644 "HTTP/1.1 404 Not Found"
+2026-04-13 22:54:36,371 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/non-existent-id-12345 - Client: testclient
+2026-04-13 22:54:36,372 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/non-existent-id-12345 - Status: 404 - Time: 0.002s
+2026-04-13 22:54:36,375 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/non-existent-id-12345 "HTTP/1.1 404 Not Found"
+2026-04-13 22:54:36,384 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,386 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:54:36,389 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,393 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,396 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:54:36,399 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,403 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,405 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:54:36,408 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,413 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,415 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 22:54:36,418 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,422 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,424 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:54:36,426 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,430 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Client: testclient
+2026-04-13 22:54:36,432 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Status: 200 - Time: 0.001s
+2026-04-13 22:54:36,434 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?skip=2&limit=2 "HTTP/1.1 200 OK"
+2026-04-13 22:54:36,460 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,463 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:54:36,465 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,469 - api - INFO - [REQUEST] PUT http://testserver/api/v1/tasks/52c81ddb-a5a1-4f0f-84a9-f4fa3006c91a - Client: testclient
+2026-04-13 22:54:36,472 - api - INFO - [RESPONSE] PUT http://testserver/api/v1/tasks/52c81ddb-a5a1-4f0f-84a9-f4fa3006c91a - Status: 404 - Time: 0.003s
+2026-04-13 22:54:36,474 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/tasks/52c81ddb-a5a1-4f0f-84a9-f4fa3006c91a "HTTP/1.1 404 Not Found"
+2026-04-13 22:54:36,499 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 22:54:36,501 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 22:54:36,504 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 22:54:36,508 - api - INFO - [REQUEST] DELETE http://testserver/api/v1/tasks/ad45f9bf-e7bd-4e55-a339-b27ccac48406 - Client: testclient
+2026-04-13 22:54:36,511 - api - INFO - [RESPONSE] DELETE http://testserver/api/v1/tasks/ad45f9bf-e7bd-4e55-a339-b27ccac48406 - Status: 404 - Time: 0.003s
+2026-04-13 22:54:36,514 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/tasks/ad45f9bf-e7bd-4e55-a339-b27ccac48406 "HTTP/1.1 404 Not Found"
+2026-04-13 23:03:41,922 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,927 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.005s
+2026-04-13 23:03:41,930 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:41,934 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/160c2a72-dccb-4470-9513-2926906332da - Client: testclient
+2026-04-13 23:03:41,937 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/160c2a72-dccb-4470-9513-2926906332da - Status: 200 - Time: 0.003s
+2026-04-13 23:03:41,941 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/160c2a72-dccb-4470-9513-2926906332da "HTTP/1.1 200 OK"
+2026-04-13 23:03:41,953 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,956 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 23:03:41,960 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:41,964 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,966 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 23:03:41,969 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:41,974 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,976 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 23:03:41,980 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:41,984 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,986 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 23:03:41,989 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:41,994 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:41,996 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 23:03:41,998 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:42,003 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Client: testclient
+2026-04-13 23:03:42,006 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks?skip=2&limit=2 - Status: 200 - Time: 0.003s
+2026-04-13 23:03:42,009 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks?skip=2&limit=2 "HTTP/1.1 200 OK"
+2026-04-13 23:03:42,018 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:42,021 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.002s
+2026-04-13 23:03:42,024 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:42,029 - api - INFO - [REQUEST] PUT http://testserver/api/v1/tasks/964f66ad-3ef8-4ae8-82cf-c839d178f7a1 - Client: testclient
+2026-04-13 23:03:42,034 - api - INFO - [RESPONSE] PUT http://testserver/api/v1/tasks/964f66ad-3ef8-4ae8-82cf-c839d178f7a1 - Status: 200 - Time: 0.005s
+2026-04-13 23:03:42,037 - httpx - INFO - HTTP Request: PUT http://testserver/api/v1/tasks/964f66ad-3ef8-4ae8-82cf-c839d178f7a1 "HTTP/1.1 200 OK"
+2026-04-13 23:03:42,047 - api - INFO - [REQUEST] POST http://testserver/api/v1/tasks - Client: testclient
+2026-04-13 23:03:42,050 - api - INFO - [RESPONSE] POST http://testserver/api/v1/tasks - Status: 201 - Time: 0.003s
+2026-04-13 23:03:42,054 - httpx - INFO - HTTP Request: POST http://testserver/api/v1/tasks "HTTP/1.1 201 Created"
+2026-04-13 23:03:42,058 - api - INFO - [REQUEST] DELETE http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc - Client: testclient
+2026-04-13 23:03:42,060 - api - INFO - [RESPONSE] DELETE http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc - Status: 204 - Time: 0.002s
+2026-04-13 23:03:42,064 - httpx - INFO - HTTP Request: DELETE http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc "HTTP/1.1 204 No Content"
+2026-04-13 23:03:42,069 - api - INFO - [REQUEST] GET http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc - Client: testclient
+2026-04-13 23:03:42,070 - api - INFO - [RESPONSE] GET http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc - Status: 404 - Time: 0.002s
+2026-04-13 23:03:42,074 - httpx - INFO - HTTP Request: GET http://testserver/api/v1/tasks/128b0bf5-740c-48cc-996a-ce0c785087dc "HTTP/1.1 404 Not Found"
+2026-04-13 23:34:31,833 - api - INFO - [REQUEST] GET http://127.0.0.1:8000/api/v1/tasks - Client: 127.0.0.1
+2026-04-13 23:34:31,838 - api - INFO - [RESPONSE] GET http://127.0.0.1:8000/api/v1/tasks - Status: 200 - Time: 0.006s
+2026-04-13 23:34:47,458 - api - INFO - [REQUEST] GET http://127.0.0.1:8000/api/v1/tasks/stats - Client: 127.0.0.1
+2026-04-13 23:34:47,461 - api - INFO - [RESPONSE] GET http://127.0.0.1:8000/api/v1/tasks/stats - Status: 200 - Time: 0.003s
