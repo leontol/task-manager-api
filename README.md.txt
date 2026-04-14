@@ -1,3 +1,23 @@
+echo "# Task Manager API
+
+REST API для управления задачами на FastAPI
+
+## Технологии
+- FastAPI
+- PostgreSQL
+- Pydantic
+- Dependency Injection
+
+## Запуск
+\`\`\`bash
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+\`\`\`
+
+## Документация
+http://localhost:8000/api/docs
+" > README.md
+
 E:\Task_manager\
 ├── app/
 │   ├── api/
